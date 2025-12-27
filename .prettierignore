@@ -1,6 +1,8 @@
-node_modules
-dist
-coverage
-.env
-*.log
-webpack.config.js
+node_modules/
+dist/
+coverage/
+*.min.js
+package-lock.json
+README.md
+
+
