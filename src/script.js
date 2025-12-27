@@ -11,16 +11,16 @@ Function.prototype.myBind = function (context, ...args) {
 
 class User {
   constructor() {
-    this.name = "";
-    this.age = "";
+    this.name = '';
+    this.age = '';
   }
 
   askName() {
-    this.name = prompt("input your name");
+    this.name = prompt('input your name');
     return this;
   }
   askAge() {
-    this.age = prompt("input your age");
+    this.age = prompt('input your age');
     return this;
   }
   showAgeInConsole() {
@@ -49,7 +49,7 @@ function ForceConstructor(make, model, color) {
   this.color = color;
 }
 
-console.log(ForceConstructor("Toyota", "rav4", "blue"));
+console.log(ForceConstructor('Toyota', 'rav4', 'blue'));
 
 //curry function
 
